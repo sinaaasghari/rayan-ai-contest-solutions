@@ -1,5 +1,26 @@
 # Rayan AI Contest Solutions
-Solutions to the Challenges in the Main Phase of the Rayan International AI Contest.
+
+## 🚀 Challenges & Solutions
+
+This repository serves as the entry point for our solutions to three distinct machine learning challenges. Below is a high-level overview of our approach for each task.
+
+### 🧩 Q5: Compositional Image Retrieval (1st Place)
+* **Objective:** Retrieve images based on a reference image and a textual modification (e.g., "remove motor and add microwave").
+* **Approach:** We utilized a two-stage pipeline consisting of a **Token Classification** module for semantic parsing and **Compositional Embedding Arithmetic** to modify visual representations in the latent space.
+* **Performance:** 95.38% Accuracy.
+* **Repository:** [compositional-image-retrieval](https://github.com/safinal/compositional-image-retrieval)
+
+### 🔍 Q6: Zero-Shot Anomaly Detection (2nd Place)
+* **Objective:** Detect and localize anomalies in industrial and medical images without prior exposure to abnormal examples (Zero-Shot setting).
+* **Approach:** We adopted the **MuSc framework** (Mutual Scoring of unlabeled images) combined with a custom post-processing masking strategy to handle background noise in industrial datasets.
+* **Performance:** 73.14% Accuracy.
+* **Repository:** [zeroshot-anomaly-detection](https://github.com/safinal/zeroshot-anomaly-detection)
+
+### 🛡️ Q7: Backdoored Model Detection (2nd Place)
+* **Objective:** Distinguish between clean and backdoored neural networks without knowing the specific attack type or trigger structure.
+* **Approach:** We implemented **Activation Perturbation Optimization** to reverse-engineer latent triggers, followed by a statistical outlier detection method using exponential distribution fitting.
+* **Performance:** 78% Accuracy.
+* **Repository:** [backdoored-model-detection](https://github.com/safinal/backdoored-model-detection)
 
 ## 🏆 Final Leaderboard
 
