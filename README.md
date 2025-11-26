@@ -36,3 +36,7 @@ This repository serves as the entry point for our solutions to three distinct ma
 | 8        | Tempest                              | 69.86            | 70.88            | 63            |
 | 9        | AlphaQ                               | 82.89            | 62.15            | 60            |
 | 10       | Cogniverse                           | 49.71            | 61.53            | 63            |
+
+
+## 📄 Technical Report
+For a detailed explanation of our methodologies, experiments, and results, please refer to our full [Technical Report](./Technical_Report.pdf).
